@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/login.css">
+	<style>
+			
+		body{background-image: url('');
+		}
+	</style>
+</head>
+
+<body>
+    <div class="login-box">
+        <div class="form-container">
+            <div class="header">登录</div>
+            <form id="login-form" action="your_backend_login_url" method="post">
+              
+                <div class="input-container">
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" placeholder="请输入用户名" />
+                </div>
+                <div class="input-container">
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" placeholder="请输入密码" />
+                </div>
+                <div class="button-container">
+                    <button type="button" id="login-btn">登录</button>
+                    <button type="button" id="register-btn" window.location.href ='register.html'>注册</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

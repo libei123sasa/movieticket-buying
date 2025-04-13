@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>在线购票页面</title>
+
+    <link rel="stylesheet" href="css/buy.css">
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <p>在线购票</p>
+        <li>电影：
+            <select id="filmSelect" name="filmSelect">
+                <option value="好东西">好东西</option>
+                <option value="因果报应">因果报应</option>
+                <option value="孤星计划">孤星计划</option>
+                <option value="风流一代">风流一代</option>
+                <option value="今年二十二">今年二十二</option>
+                <option value="美人鱼的夏天">美人鱼的夏天</option>
+                <option value="鸳鸯楼·惊魂">鸳鸯楼·惊魂</option>
+                <option value="毒液：最后一舞">毒液：最后一舞</option>
+            </select>
+        </li>
+        <li>影院
+            <select id="cinemaSelect" name="cinemaSelect">
+                <option value="星光影院">星光影院</option>
+                <option value="华彩影城">华彩影城</option>
+                <option value="万达影院">万达影院</option>
+                <option value="大地影城">大地影城</option>
+                <option value="中影国际影城">中影国际影城</option>
+                <option value="橙天嘉禾影城">橙天嘉禾影城</option>
+                <option value="金逸影城">金逸影城</option>
+                <option value="横店影城">横店影城</option>
+            </select>
+        </li>
+
+        <li>时间：
+            <select id="movieTimeSelect">
+                <option value="2025年1月1日 21:00">2025年1月1日 21:00</option>
+                <option value="2025年1月2日 14:00">2025年1月2日 14:00</option>
+                <option value="2025年1月2日 19:00">2025年1月2日 19:00</option>
+                <option value="2025年1月3日 10:30">2025年1月3日 10:30</option>
+            </select>
+        </li>
+        <li>票价：<span id="ticketPrice">50元</span></li>
+        <hr />
+
+        <button type="button" onclick="window.location.href='seat.html'">前往选座</button>
+
+    </div>
+	
+    <div class="product-section">
+       
+        <div class="product">
+            <img src="img/小吃/DM_20241207221647_001.jpg" >
+            <h2>套餐1</h2>
+            <p>超值460 z爆米花1桶+纸巾1包+ 500ml玉油柑1杯/ 500ml青梅1杯/ 500ml橙汁1杯( 3选2 )</p>
+            <p style="color: red;">价格：26元</p>
+            <button onclick="alert('购买成功！')">购买</button>
+        </div>
+       
+        <div class="product">
+            <img src="img/小吃/OIP-C.jpg" alt="橙汁图片">
+            <h2>橙汁</h2>
+            <p>鲜榨橙汁，富含维生素C</p>
+			<br />
+            <p style="color: red;">价格：8元</p>
+            <button onclick="alert('购买成功！')">购买</button>
+        </div>
+        
+        <div class="product">
+            <img src="img/小吃/DM_20241207221647_003.jpg" alt="爆米花1图片">
+            <h2>奶油味爆米花</h2>
+            <p>香甜可口的奶油味爆米花，看电影必备</p>
+			<br />
+            <p style="color: red;">价格：10元</p>
+            <button onclick="alert('购买成功！')">购买</button>
+        </div>
+       
+    </div>
+
+		
+	</div>
+	
+
+</body>
+
+</html>

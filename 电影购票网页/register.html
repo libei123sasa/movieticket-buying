@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息注册</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div class="register-box">
+        <div class="form-container">
+            <div class="header">注册</div>
+            <hr>
+            <div class="main">
+                <div class="input-container">
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" placeholder="请输入用户名" />
+                </div>
+                <div class="input-container">
+                    <label for="phone">电话号码:</label>
+                    <input type="tel" id="phone" placeholder="请输入电话号码" />
+                </div>
+                <div class="input-container">
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" placeholder="请输入至少为6位密码" />
+                </div>
+                <div class="input-container">
+                    <label for="confirm-password">确认密码:</label>
+                    <input type="password" id="confirm-password" placeholder="请重新输入密码" />
+                </div>
+                <p>
+                    <label for="sex">性别 :</label>
+                    <input type="radio" id="male" name="sex" value="男" />男
+                    <input type="radio" id="female" name="sex" value="女" />女
+                </p>
+                <p id="hobbies-p">
+                    <label for="hobbies">爱好 ：</label>
+                    <input type="checkbox" id="comedy" value="喜剧" />喜剧
+                    <input type="checkbox" id="romance" value="爱情" />爱情
+                    <input type="checkbox" id="action" value="动作" />动作
+                    <input type="checkbox" id="science-fiction" value="科幻" />科幻
+                    <input type="checkbox" id="horror" value="恐怖" />恐怖
+                    <input type="checkbox" id="crime" value="犯罪" />犯罪
+                    <input type="checkbox" id="war" value="战争" />战争
+                    <input type="checkbox" id="history" value="历史" />历史
+                </p>
+                <hr>
+                <div class="button-container">
+                    <button type="button" id="submit-btn">提交</button>
+                    <button type="button" id="back-login-btn">返回登录</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+
+</html>
